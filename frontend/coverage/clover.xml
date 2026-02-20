@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1763985673858" clover="3.2.0">
+  <project timestamp="1763985673858" name="All files">
+    <metrics statements="45" coveredstatements="1" conditionals="41" coveredconditionals="0" methods="15" coveredmethods="0" elements="101" coveredelements="1" complexity="0" loc="45" ncloc="45" packages="1" files="1" classes="1"/>
+    <file name="ChatBot.jsx" path="D:\vs code\code 1\real me 2\frontend\src\components\ChatBot.jsx">
+      <metrics statements="45" coveredstatements="1" conditionals="41" coveredconditionals="0" methods="15" coveredmethods="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="3"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="41" count="0" type="stmt"/>
+      <line num="42" count="0" type="stmt"/>
+      <line num="43" count="0" type="stmt"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="46" count="0" type="stmt"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="50" count="0" type="stmt"/>
+      <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="59" count="0" type="stmt"/>
+      <line num="60" count="0" type="stmt"/>
+      <line num="61" count="0" type="stmt"/>
+      <line num="62" count="0" type="stmt"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="65" count="0" type="stmt"/>
+      <line num="67" count="0" type="stmt"/>
+      <line num="73" count="0" type="stmt"/>
+      <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="76" count="0" type="stmt"/>
+      <line num="82" count="0" type="stmt"/>
+      <line num="84" count="0" type="stmt"/>
+      <line num="88" count="0" type="stmt"/>
+      <line num="93" count="0" type="stmt"/>
+      <line num="113" count="0" type="stmt"/>
+      <line num="114" count="0" type="stmt"/>
+      <line num="117" count="0" type="stmt"/>
+      <line num="118" count="0" type="stmt"/>
+      <line num="163" count="0" type="stmt"/>
+      <line num="177" count="0" type="stmt"/>
+      <line num="207" count="0" type="stmt"/>
+      <line num="271" count="0" type="stmt"/>
+      <line num="272" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+  </project>
+</coverage>

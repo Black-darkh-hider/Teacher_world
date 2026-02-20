@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: teacher-portal-backend
+    runtime: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: GMAIL_USER
+        sync: false
+      - key: GMAIL_PASSWORD
+        sync: false
+      - key: NODE_ENV
+        value: production

@@ -1,0 +1,25 @@
+const express = require('express')
+const router = express.Router()
+const { verifyAccessToken } = require('../config/jwt')
+
+// Dev-only token inspector. Returns decoded token if valid.
+router.get('/token', (req, res) => {
+  try {
+    const authHeader = req.headers['authorization'] || ''
+    let token = authHeader.split(/\s+/).pop()
+    if (!token) return res.status(400).json({ message: 'Authorization header required: Bearer <token>' })
+
+    // Normalize similar to middleware
+    token = String(token).trim().replace(/^"|"$/g, '').replace(/^'|'$/g, '')
+    try { token = decodeURIComponent(token) } catch (e) {}
+
+    const decoded = verifyAccessToken(token)
+    if (!decoded) return res.status(403).json({ message: 'Invalid or expired token' })
+
+    res.json({ decoded })
+  } catch (err) {
+    res.status(500).json({ message: 'Debug endpoint error', error: err.message })
+  }
+})
+
+module.exports = router
